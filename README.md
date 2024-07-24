@@ -5,10 +5,10 @@
 
 目前主要针对移动UI进行了一些优化（自己有较多手机传种的需求）:
 - [x] 修改种子显示信息
-  - 添加"已上传量"
-  - 显示tracks对应的PT站名称
-  - 加粗"上传速度"
-  - 显示tranck error信息
+  - 添加已上传总量
+  - 显示下载任务对应的PT站名称
+  - 加粗上传速度
+  - 针对种子显示tracker error warning信息
 - [x] 添加下载任务增加从本地上传种子功能（之前移动UI仅有通过磁性链接上传的功能）
 
 |![](./md_img0.jpg)|![](./md_img1.jpg)|
@@ -68,5 +68,13 @@ services:
     restart: unless-stopped
 ```
 
-1. 下载github项目
-2. 解压到你设置的web_ui路径即可
+**1. 下载Releases种的zip文件，例如tr_webui_v0.1.zip**
+![](./md_img4.png)
+**2. 解压到你设置的web_ui路径即可**
+![](./md_img5.png)
+
+**注：群晖docker界面中的对应路径和环境变量参考**
+![](./md_img6.png)
+
+
+
